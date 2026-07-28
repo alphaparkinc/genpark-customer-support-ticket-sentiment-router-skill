@@ -1,0 +1,24 @@
+{
+  "name": "genpark-customer-support-ticket-sentiment-router-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Customer support ticket sentiment and urgent priority router.",
+  "author": "genpark",
+  "category": "operations",
+  "tags": [
+    "operations",
+    "genpark-skill",
+    "ai-agent"
+  ],
+  "inputs": {
+    "ticket_text": {
+      "type": "str"
+    }
+  },
+  "outputs": {
+    "priority": {
+      "type": "str"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
